@@ -1,6 +1,6 @@
 <template>
   <v-card class="pa-4">
-    <h1 class="mb-2">Todo list appp</h1>
+    <h1 class="mb-2">Todo list app</h1>
     <v-form
       v-if="isLogin"
       @submit.prevent="submitLogin"
